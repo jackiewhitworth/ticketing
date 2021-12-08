@@ -8,7 +8,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: jackiewhitworth/auth
+    - image: us.gcr.io/ticketing-dev-334401/auth
       context: auth
       docker:
         dockerfile: Dockerfile
