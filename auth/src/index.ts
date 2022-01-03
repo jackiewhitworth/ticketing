@@ -7,7 +7,7 @@ const start = async () => {
   }
   try {
     await mongoose.connect('mongodb://auth-mongo-srv:27017/auth');
-    console.log('connected to MongoDB')
+    console.log('connected to MongoDB');
   } catch (err) {
     console.error(err);
   }

@@ -1,2 +1,4 @@
 .DS_Store
 auth/.DS_Store
+client/node_modules
+auth/node_modules
